@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta property="og:title" content="Aprender más">
+<meta property="og:description" content="Aprender más">
+<meta property="og:image" content="https://scontent.fdps5-1.fna.fbcdn.net/v/t45.1600-4/327758366_23854013367600532_4784223370750529517_n.jpg?stp=cp0_dst-jpg_fr_q75_spS444&_nc_cat=109&ccb=1-7&_nc_sid=67cdda&_nc_ohc=VEO94DCrvA4AX8mDLL3&_nc_oc=AQmBMYEPl_NhsewIw8e5Q2ioa352AyYoO9HNGZUd4Z_1ebjZOyBqkKE2IMgpJ5aW-uk&_nc_ht=scontent.fdps5-1.fna&oh=00_AfARAxwtuANfKg7VXLAUSVbsrydfvtQ2h4hjCP5q2qX2hA&oe=643B07BF">
+    <meta charset="utf-8">
+    <title>Food Delivery Landing Page</title>
+    <style>
+      /* Styles for page layout */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #e74c3c;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      h1 {
+        margin: 0;
+      }
+      nav {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+      }
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+      nav li {
+        display: inline-block;
+        margin: 0 10px;
+      }
+      nav a {
+        color: #fff;
+        text-decoration: none;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      section {
+        margin: 20px;
+      }
+      aside {
+        float: right;
+        margin-top: 20px;
+        width: 30%;
+      }
+      .button {
+        background-color: #3498db;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 10px;
+        padding: 10px 20px;
+        text-transform: uppercase;
+      }
+      .button:hover {
+        background-color: #2980b9;
+      }
+      /* Styles for form */
+      form {
+        border: 1px solid #ccc;
+        margin-top: 20px;
+        padding: 20px;
+      }
+      label {
+        display: block;
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"],
+      select,
+      textarea {
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        font-size: 16px;
+        padding: 10px;
+        width: 100%;
+      }
+      select {
+        height: 40px;
+        padding: 5px;
+      }
+      textarea {
+        height: 100px;
+      }
+      /* Styles for articles */
+      article {
+        border: 1px solid #ccc;
+        margin-bottom: 20px;
+        padding: 20px;
+      }
+      article h2 {
+        margin-top: 0;
+      }
+      article img {
+        float: right;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        width: 30%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Food Delivery</h1>
+      <p>Delivering delicious food to your doorstep</p>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt magna sit amet metus fermentum vestibulum. Vivamus fringilla, nisi non pharetra vestibulum, felis lorem aliquam nisi, ac feugiat odio orci et ante. Maecenas fringilla ultricies velit vel tristique. Donec laoreet, est in malesuada interdum, enim erat facilisis risus, a vestibulum nulla quam et purus. Nulla consequat, felis vel hendrerit porta, justo sapien hendrerit massa, eget malesuada lacus purus at leo.</p>
+        <p>Phasellus sollicitudin facilisis lacinia. Praesent orci ipsum, vestibulum at ex a, consectetur malesuada ligula. Vestibulum suscipit, ante eu cursus ultricies, mauris velit venenatis mauris, ut scelerisque erat neque ut augue. Cras nec nisl sit amet nibh tincidunt luctus. Nunc congue sodales porta. Integer faucibus elit id augue commodo tincidunt. Fusce bibendum nulla a lacus mattis commodo. Duis sodales et augue ac placerat. Nam et finibus metus, a feugiat ipsum.</p>
+      </section>
+      <section id="menu">
+        <h2>Menu</h2>
+        <article>
+          <img src="https://via.placeholder.com/150">
+          <h2>Chicken Parmesan</h2>
+          <p>A delicious Italian classic with breaded chicken, marinara sauce, and Parmesan cheese. Served with your choice of pasta.</p>
+          <p><strong>Price:</strong> $12.99</p>
+        </article>
+        <article>
+          <img src="https://via.placeholder.com/150">
+          <h2>Beef Stroganoff</h2>
+          <p>A hearty dish with beef, mushrooms, onions, and sour cream. Served with your choice of pasta or rice.</p>
+          <p><strong>Price:</strong> $14.99</p>
+        </article>
+        <article>
+          <img src="https://via.placeholder.com/150">
+          <h2>Grilled Salmon</h2>
+          <p>A healthy option with fresh salmon, grilled to perfection. Served with your choice of vegetables.</p>
+          <p><strong>Price:</strong> $16.99</p>
+        </article>
+      </section>
+      <aside>
+        <form>
+          <h2>Order Form</h2>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" required>
+          <label for="address">Address:</label>
+          <textarea id="address" name="address" required></textarea>
+          <label for="item">Item:</label>
+          <select id="item" name="item" required>
+            <option value="">Choose an item</option>
+            <option value="Chicken Parmesan">Chicken Parmesan - $12.99</option>
+            <option value=\"Beef Stroganoff">Beef Stroganoff - $14.99</option>
+            <option value="Grilled Salmon">Grilled Salmon - $16.99</option>
+          </select>
+          <button class="button" type="submit">Submit Order</button>
+        </form>
+      </aside>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Please call us at 1-800-555-5555 or email us at info@fooddelivery.com with any questions or concerns.</p>
+      </section>
+    </main>
+  </body>
+</html>
